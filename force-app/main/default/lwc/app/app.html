@@ -1,0 +1,12 @@
+<template>
+    <template lwc:if={ready}>
+      <div id="display">
+        <c-bike bike={bike}></c-bike>
+      </div>
+    </template>
+    <template lwc:else> 
+      <div id="waiting">Loading…</div>
+    </template>
+  
+  </template>
+  
